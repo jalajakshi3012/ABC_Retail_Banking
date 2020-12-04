@@ -1,0 +1,70 @@
+
+<h2>Register Here....</h2>
+<div class="row">
+    <div class="col-md-6 offset-md-3 mt-4">
+<form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip01">First name</label>
+        <input type="text" class="form-control" id="validationTooltip01" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip02">Last name</label>
+        <input type="text" class="form-control" id="validationTooltip02"  required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="MobileNumber">Mobile Number</label>
+          <input type="number" maxlength="10" class="form-control" id="MobileNumber"  required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="Email">Email</label>
+          <input type="email" class="form-control" id="Email"  required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+      </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip03">City</label>
+        <input type="text" class="form-control" id="validationTooltip03" required>
+        <div class="invalid-tooltip">
+          Please provide a valid city.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationTooltip04">State</label>
+        <select class="custom-select" id="validationTooltip04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>ABC</option>
+          <option>XCV</option>
+        </select>
+        <div class="invalid-tooltip">
+          Please select a valid state.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationTooltip05">Zip</label>
+        <input type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Please provide a valid zip.
+        </div>
+      </div>
+    </div>
+    <a 
+    [routerLink]="['mainpage']"  
+    routerLinkActive="active">Register</a>
+  </form>
+</div>
+</div>
